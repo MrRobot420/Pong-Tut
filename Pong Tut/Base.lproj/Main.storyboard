@@ -1,15 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A278a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rxf-oX-orq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="LLPIXEL3.ttf">
+            <string>LLPixel</string>
+        </array>
+    </customFonts>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="4Sb-f8-DxU">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="rxf-oX-orq" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MZd-Hu-Mz1">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oIh-6m-tPs">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="Eiz-Dk-Zbv" kind="relationship" relationship="rootViewController" id="6gV-iU-04w"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XNU-kW-huX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-857" y="63"/>
+        </scene>
+        <!--MenuVC-->
+        <scene sceneID="Lzb-Cc-cdL">
+            <objects>
+                <viewController id="Eiz-Dk-Zbv" customClass="MenuVC" customModule="Pong_Tut" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s2w-Ze-V2V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kl-OI-9VO">
+                                <rect key="frame" x="159" y="484" width="57" height="30"/>
+                                <color key="backgroundColor" red="0.76899760928961747" green="0.0" blue="0.015621869030638714" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1rC-NT-Eb8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LLPixel" family="LLPixel" pointSize="18"/>
+                                <state key="normal" title="Hard">
+                                    <color key="titleColor" red="0.99963909387588501" green="1" blue="0.99975615739822388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="hardPressed:" destination="Eiz-Dk-Zbv" eventType="touchUpInside" id="BDm-SR-Vub"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BnX-tH-CVY">
+                                <rect key="frame" x="148" y="428" width="79" height="30"/>
+                                <color key="backgroundColor" red="0.76899760928961747" green="0.53813443383363613" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8DH-Ob-RxB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LLPixel" family="LLPixel" pointSize="18"/>
+                                <state key="normal" title="Medium">
+                                    <color key="titleColor" red="0.99963909387588501" green="1" blue="0.99975615739822388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="mediumPressed:" destination="Eiz-Dk-Zbv" eventType="touchUpInside" id="HSA-ek-7k2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnj-tZ-9Ko">
+                                <rect key="frame" x="162" y="369" width="50" height="30"/>
+                                <color key="backgroundColor" red="0.2046015101407678" green="0.76899760928961747" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="keP-W0-Fve"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LLPixel" family="LLPixel" pointSize="18"/>
+                                <state key="normal" title="Easy">
+                                    <color key="titleColor" red="0.99963909387588501" green="1" blue="0.99975615739822388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="easyPressed:" destination="Eiz-Dk-Zbv" eventType="touchUpInside" id="SeF-xH-5Sf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P O N G" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXR-Ez-PFp">
+                                <rect key="frame" x="108" y="65" width="159" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="d1M-SG-gxX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LLPixel" family="LLPixel" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Js8-11-4i4">
+                                <rect key="frame" x="141" y="283" width="92" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.8675076844262295" blue="0.84107807611253427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="w62-FL-lWg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LLPixel" family="LLPixel" pointSize="18"/>
+                                <state key="normal" title="2 Player">
+                                    <color key="titleColor" red="0.99963909387588501" green="1" blue="0.99975615739822388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="player2Pressed:" destination="Eiz-Dk-Zbv" eventType="touchUpInside" id="4LE-hj-a24"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32246112823486328" green="0.64262670278549194" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KXR-Ez-PFp" firstAttribute="top" secondItem="2B5-w2-Y1b" secondAttribute="top" constant="45" id="47k-Py-tG1"/>
+                            <constraint firstItem="Pnj-tZ-9Ko" firstAttribute="top" secondItem="Js8-11-4i4" secondAttribute="bottom" constant="56" id="9UN-LK-reU"/>
+                            <constraint firstItem="BnX-tH-CVY" firstAttribute="top" secondItem="Pnj-tZ-9Ko" secondAttribute="bottom" constant="29" id="HUR-Dr-FdV"/>
+                            <constraint firstItem="BnX-tH-CVY" firstAttribute="top" secondItem="Pnj-tZ-9Ko" secondAttribute="bottom" constant="29" id="J1M-qU-imW"/>
+                            <constraint firstItem="KXR-Ez-PFp" firstAttribute="centerX" secondItem="Js8-11-4i4" secondAttribute="centerX" id="Mrh-TM-apS"/>
+                            <constraint firstItem="Js8-11-4i4" firstAttribute="centerX" secondItem="s2w-Ze-V2V" secondAttribute="centerX" id="O10-8k-0Fh"/>
+                            <constraint firstItem="KXR-Ez-PFp" firstAttribute="leading" secondItem="2B5-w2-Y1b" secondAttribute="leading" constant="108" id="Ssf-0w-WGe"/>
+                            <constraint firstItem="0kl-OI-9VO" firstAttribute="top" secondItem="BnX-tH-CVY" secondAttribute="bottom" constant="26" id="UQn-sJ-2uz"/>
+                            <constraint firstItem="Js8-11-4i4" firstAttribute="centerX" secondItem="Pnj-tZ-9Ko" secondAttribute="centerX" id="UmT-2h-F77"/>
+                            <constraint firstItem="2B5-w2-Y1b" firstAttribute="bottom" secondItem="0kl-OI-9VO" secondAttribute="bottom" constant="153" id="XtE-Ko-7mq"/>
+                            <constraint firstItem="Pnj-tZ-9Ko" firstAttribute="top" secondItem="Js8-11-4i4" secondAttribute="bottom" constant="56" id="YGD-M0-imV"/>
+                            <constraint firstItem="KXR-Ez-PFp" firstAttribute="top" secondItem="2B5-w2-Y1b" secondAttribute="top" constant="45" id="aOO-X7-KI8"/>
+                            <constraint firstItem="BnX-tH-CVY" firstAttribute="centerX" secondItem="0kl-OI-9VO" secondAttribute="centerX" id="bE2-nj-fD4"/>
+                            <constraint firstItem="2B5-w2-Y1b" firstAttribute="bottom" secondItem="0kl-OI-9VO" secondAttribute="bottom" constant="153" id="fB7-Ow-NHy"/>
+                            <constraint firstItem="KXR-Ez-PFp" firstAttribute="leading" secondItem="2B5-w2-Y1b" secondAttribute="leading" constant="108" id="gQ0-lO-Lzb"/>
+                            <constraint firstItem="2B5-w2-Y1b" firstAttribute="trailing" secondItem="KXR-Ez-PFp" secondAttribute="trailing" constant="108" id="hXZ-EW-sMO"/>
+                            <constraint firstItem="Pnj-tZ-9Ko" firstAttribute="centerX" secondItem="BnX-tH-CVY" secondAttribute="centerX" id="q60-ES-6O0"/>
+                            <constraint firstItem="0kl-OI-9VO" firstAttribute="top" secondItem="BnX-tH-CVY" secondAttribute="bottom" constant="26" id="uso-Dw-uZU"/>
+                            <constraint firstItem="0kl-OI-9VO" firstAttribute="top" secondItem="BnX-tH-CVY" secondAttribute="bottom" constant="26" id="wJG-NZ-VQz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2B5-w2-Y1b"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2ED-wO-GDN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RuJ-0O-Z22" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-39.200000000000003" y="62.518740629685162"/>
+        </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="gameVC" id="BV1-FR-VrT" customClass="GameViewController" customModule="Pong_Tut" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,6 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="622" y="64"/>
         </scene>
     </scenes>
 </document>
