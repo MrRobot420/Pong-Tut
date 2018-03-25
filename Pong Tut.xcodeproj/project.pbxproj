@@ -103,6 +103,7 @@
 		548A974120656BF10080BA3E /* Pong Tut */ = {
 			isa = PBXGroup;
 			children = (
+				54B54AF420672F6A002FD3DD /* Pictures */,
 				548A974220656BF10080BA3E /* AppDelegate.swift */,
 				548A974420656BF10080BA3E /* GameScene.sks */,
 				548A974620656BF10080BA3E /* Actions.sks */,
@@ -132,6 +133,13 @@
 				548A976A20656BF10080BA3E /* Info.plist */,
 			);
 			path = "Pong TutUITests";
+			sourceTree = "<group>";
+		};
+		54B54AF420672F6A002FD3DD /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
