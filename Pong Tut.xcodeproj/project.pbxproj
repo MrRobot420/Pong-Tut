@@ -17,6 +17,8 @@
 		548A975320656BF10080BA3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548A975120656BF10080BA3E /* LaunchScreen.storyboard */; };
 		548A975E20656BF10080BA3E /* Pong_TutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A975D20656BF10080BA3E /* Pong_TutTests.swift */; };
 		548A976920656BF10080BA3E /* Pong_TutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A976820656BF10080BA3E /* Pong_TutUITests.swift */; };
+		54B54AF620673169002FD3DD /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B54AF520673169002FD3DD /* MenuVC.swift */; };
+		54B54AF8206737D0002FD3DD /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54B54AF7206737D0002FD3DD /* LLPIXEL3.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		548A976420656BF10080BA3E /* Pong TutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pong TutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		548A976820656BF10080BA3E /* Pong_TutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pong_TutUITests.swift; sourceTree = "<group>"; };
 		548A976A20656BF10080BA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B54AF520673169002FD3DD /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		54B54AF7206737D0002FD3DD /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				548A974620656BF10080BA3E /* Actions.sks */,
 				548A974820656BF10080BA3E /* GameScene.swift */,
 				548A974A20656BF10080BA3E /* GameViewController.swift */,
+				54B54AF520673169002FD3DD /* MenuVC.swift */,
 				548A974C20656BF10080BA3E /* Main.storyboard */,
 				548A974F20656BF10080BA3E /* Assets.xcassets */,
 				548A975120656BF10080BA3E /* LaunchScreen.storyboard */,
@@ -138,6 +143,7 @@
 		54B54AF420672F6A002FD3DD /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				54B54AF7206737D0002FD3DD /* LLPIXEL3.ttf */,
 			);
 			path = Pictures;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				548A974E20656BF10080BA3E /* Main.storyboard in Resources */,
+				54B54AF8206737D0002FD3DD /* LLPIXEL3.ttf in Resources */,
 				548A974520656BF10080BA3E /* GameScene.sks in Resources */,
 				548A975020656BF10080BA3E /* Assets.xcassets in Resources */,
 				548A975320656BF10080BA3E /* LaunchScreen.storyboard in Resources */,
@@ -279,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				548A974920656BF10080BA3E /* GameScene.swift in Sources */,
+				54B54AF620673169002FD3DD /* MenuVC.swift in Sources */,
 				548A974B20656BF10080BA3E /* GameViewController.swift in Sources */,
 				548A974320656BF10080BA3E /* AppDelegate.swift in Sources */,
 			);
