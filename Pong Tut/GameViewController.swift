@@ -24,7 +24,6 @@ class GameViewController: UIViewController {
                 scene.scaleMode = .aspectFill
                 
                 scene.size = view.bounds.size
-                
                 // Present the scene
                 view.presentScene(scene)
             }

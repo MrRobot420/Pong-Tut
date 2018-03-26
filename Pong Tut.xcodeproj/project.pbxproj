@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542A265B20695E4F0022E279 /* Pong Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 542A265A20695E4F0022E279 /* Pong Logo.png */; };
+		542A265D206972E40022E279 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 542A265C206972E40022E279 /* MenuScene.sks */; };
+		542A265F2069775F0022E279 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A265E2069775F0022E279 /* MenuScene.swift */; };
 		548A974320656BF10080BA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A974220656BF10080BA3E /* AppDelegate.swift */; };
 		548A974520656BF10080BA3E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 548A974420656BF10080BA3E /* GameScene.sks */; };
 		548A974720656BF10080BA3E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 548A974620656BF10080BA3E /* Actions.sks */; };
@@ -19,6 +22,8 @@
 		548A976920656BF10080BA3E /* Pong_TutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A976820656BF10080BA3E /* Pong_TutUITests.swift */; };
 		54B54AF620673169002FD3DD /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B54AF520673169002FD3DD /* MenuVC.swift */; };
 		54B54AF8206737D0002FD3DD /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54B54AF7206737D0002FD3DD /* LLPIXEL3.ttf */; };
+		54B54AFA20674B85002FD3DD /* icons8-zuhause-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B54AF920674B85002FD3DD /* icons8-zuhause-64.png */; };
+		54B54AFC20674C0D002FD3DD /* icons8-zurückspulen-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B54AFB20674C0D002FD3DD /* icons8-zurückspulen-64.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		542A265A20695E4F0022E279 /* Pong Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pong Logo.png"; sourceTree = "<group>"; };
+		542A265C206972E40022E279 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		542A265E2069775F0022E279 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		548A973F20656BF10080BA3E /* Pong Tut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong Tut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		548A974220656BF10080BA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		548A974420656BF10080BA3E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -57,6 +65,8 @@
 		548A976A20656BF10080BA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B54AF520673169002FD3DD /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		54B54AF7206737D0002FD3DD /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
+		54B54AF920674B85002FD3DD /* icons8-zuhause-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-zuhause-64.png"; sourceTree = "<group>"; };
+		54B54AFB20674C0D002FD3DD /* icons8-zurückspulen-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-zurückspulen-64.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +119,13 @@
 			children = (
 				54B54AF420672F6A002FD3DD /* Pictures */,
 				548A974220656BF10080BA3E /* AppDelegate.swift */,
-				548A974420656BF10080BA3E /* GameScene.sks */,
 				548A974620656BF10080BA3E /* Actions.sks */,
+				548A974420656BF10080BA3E /* GameScene.sks */,
 				548A974820656BF10080BA3E /* GameScene.swift */,
 				548A974A20656BF10080BA3E /* GameViewController.swift */,
 				54B54AF520673169002FD3DD /* MenuVC.swift */,
+				542A265E2069775F0022E279 /* MenuScene.swift */,
+				542A265C206972E40022E279 /* MenuScene.sks */,
 				548A974C20656BF10080BA3E /* Main.storyboard */,
 				548A974F20656BF10080BA3E /* Assets.xcassets */,
 				548A975120656BF10080BA3E /* LaunchScreen.storyboard */,
@@ -143,6 +155,9 @@
 		54B54AF420672F6A002FD3DD /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				542A265A20695E4F0022E279 /* Pong Logo.png */,
+				54B54AFB20674C0D002FD3DD /* icons8-zurückspulen-64.png */,
+				54B54AF920674B85002FD3DD /* icons8-zuhause-64.png */,
 				54B54AF7206737D0002FD3DD /* LLPIXEL3.ttf */,
 			);
 			path = Pictures;
@@ -256,7 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				548A974E20656BF10080BA3E /* Main.storyboard in Resources */,
+				54B54AFC20674C0D002FD3DD /* icons8-zurückspulen-64.png in Resources */,
+				542A265B20695E4F0022E279 /* Pong Logo.png in Resources */,
+				542A265D206972E40022E279 /* MenuScene.sks in Resources */,
 				54B54AF8206737D0002FD3DD /* LLPIXEL3.ttf in Resources */,
+				54B54AFA20674B85002FD3DD /* icons8-zuhause-64.png in Resources */,
 				548A974520656BF10080BA3E /* GameScene.sks in Resources */,
 				548A975020656BF10080BA3E /* Assets.xcassets in Resources */,
 				548A975320656BF10080BA3E /* LaunchScreen.storyboard in Resources */,
@@ -287,6 +306,7 @@
 			files = (
 				548A974920656BF10080BA3E /* GameScene.swift in Sources */,
 				54B54AF620673169002FD3DD /* MenuVC.swift in Sources */,
+				542A265F2069775F0022E279 /* MenuScene.swift in Sources */,
 				548A974B20656BF10080BA3E /* GameViewController.swift in Sources */,
 				548A974320656BF10080BA3E /* AppDelegate.swift in Sources */,
 			);

@@ -31,12 +31,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XNU-kW-huX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-857" y="63"/>
+            <point key="canvasLocation" x="-663" y="-83"/>
         </scene>
         <!--MenuVC-->
         <scene sceneID="Lzb-Cc-cdL">
             <objects>
-                <viewController id="Eiz-Dk-Zbv" customClass="MenuVC" customModule="Pong_Tut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="menuVC" id="Eiz-Dk-Zbv" customClass="MenuVC" customModule="Pong_Tut" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s2w-Ze-V2V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RuJ-0O-Z22" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-39.200000000000003" y="62.518740629685162"/>
+            <point key="canvasLocation" x="890" y="661"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">
@@ -150,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="622" y="64"/>
+            <point key="canvasLocation" x="908" y="-83"/>
         </scene>
     </scenes>
 </document>
